@@ -43,12 +43,40 @@
 							<div>
 								<h3>Abstract</h3>
 									<p>
-										To complete
+										Nuclear magnetic resonance (NMR) spectroscopy is a method used to
+										determine the chemical structure of a molecule based on the principle
+										of resonance frequency: any nuclear spin in a given structure
+										depends on its chemical local environment (<i>i.e.</i> shielding).
+										Accurate methods using plane wave density functional theory (DFT) have
+										been developed to calculate chemical shifts. However, these techniques
+										are computationally costly and hence fail to calculate the latter for large
+										or complex molecular structures. We hence thought that machine learning tools
+										may potentially offer a new way to achieve this goal.
+										<br /> <br />
+										The aim of this project is then to build a powerful model to predict chemical
+										shieldings of hydrogen atoms from a few hundreds of crystal structures from the
+										Cambridge Structural Database (CSD) based on their local environment.
 									</p>
 
-								<h3>Challenges</h3>
+								<h3>Methods</h3>
 									<p>
-										To complete
+										As we deal with a supervised learning problem (continuous target),
+										linear regression was believed to be an appropriate class of methods to predict labels.
+										To  prevent overfitting, only regularized models were implemented, namely <i>Ridge</i>, <i>Lasso</i> and <i>Elastic net</i>.
+										Their respective regularization parameters were all optimized through grid search.
+										<br /> <br />
+										In parallel, we implemented several multi-layer perceptron (MLP), each outputting a prediction which is compared to the actual true value.
+										We build shallow and deep networks to emphasize the effect of depth on the prediction.
+										We use the mean-square error (MSE) as loss and trained the network using the classical stochastic gradient descent (SGD) algorithm.
+										We also incorporated <i>dropout</i> and <i>batch normalization</i> to reduce overfitting during the training.
+
+									</p>
+
+								<h3>Results</h3>
+									<p>
+										The final best cross-validated model, a neural network of 3 hidden layers, allowed to predict the chemical shielding from
+										a complex structure with a MSE of 0.53 and a R2 coefficient of 0.96.
+
 									</p>
 							</div>
 
