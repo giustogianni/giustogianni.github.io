@@ -1,0 +1,37 @@
+- name: Cloud Monitoring ☁️
+  url: https://github.com/giustogianni/cloud-monitoring
+  code: https://github.com/giustogianni/cloud-monitoring
+  description: Monitor cloud resources for security and governance purposes.
+  used:
+    - thing: Terraform
+    - thing: DevOps
+    - thing: Cloudquery
+    - thing: Azure
+    - thing: Bash
+
+- name: Spotify Wrapped 🎶
+  url: https://github.com/giustogianni/spotify-wrapped
+  code: https://github.com/giustogianni/spotify-wrapped
+  description: ELT pipeline design with my personal Spotify streaming history.
+  used:
+    - thing: Python
+    - thing: PostgreSQL
+    - thing: Docker
+    - thing: Spotify API
+
+- name: Doc 📖
+  url: https://github.com/giustogianni/doc
+  code: https://github.com/giustogianni/doc
+  description: Personal documentation gathering tech knowledge and good practices acquired throughout academic and professional experience.
+  used:
+    - thing: Markdown
+    - thing: Docusaurus
+
+- name: Detection of ErrPs in EEG 🧠
+  url: https://github.com/giustogianni/BCI
+  code: https://github.com/giustogianni/BCI
+  description: From a brain-computer interaction experiment recording brain signals through electroencephalography (EEG), we used signal processing to improve the signal-to-noise ratio prior feeding it to a classifier aiming at assessing the presence of so-called error-related potentials (ErrPs).
+  used:
+    - thing: Python
+    - thing: PyTorch
+    - thing: Matlab

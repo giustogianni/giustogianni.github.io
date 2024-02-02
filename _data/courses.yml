@@ -1,0 +1,14 @@
+data:
+  - item: OOP in C++
+  - item: Lab in data science
+  - item: Applied data analysis
+  - item: Networks theory
+  - item: Data visualization
+
+ml:
+  - item: Statistics for data science
+  - item: Probability & stochastic process
+  - item: Machine Learning
+  - item: Deep Learning
+  - item: Model classification
+

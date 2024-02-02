@@ -1,0 +1,20 @@
+<section class="section experience">
+  <div class="section__title">Experience</div>
+  <div class="section__content">
+    <div class="jobs">
+      {% for job in site.data.experience %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">{{job.position}}</div>
+          <div class="job__time">{{job.time}}</div>
+        </div>
+        <div class="job__position">
+          <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <a href="mailto:gianni.giusto@outlook.com?subject=Resume request&body=Hello,%0D%0A%0D%0AI am interested in learning more about you. May I ask for your resume?%0D%0A%0D%0AWarm regards,%0D%0A%0D%0A friendly contact" target="_blank" class="arrow-link">Resume Request</a>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+languages:
+  - item: Python
+  - item: SQL
+  - item: Bash
+  - item: C++
+
+pipeline:
+  - item: Apache NiFi
+  - item: GitLab pipelines
+  - item: AWS Glue & Athena
+  - item: Azure Synapse
+
+tools:
+  - item: Git
+  - item: Docker
+  - item: SQL Server & PostgreSQL
+  - item: Postman
+  - item: Elasticsearch & Kibana
+
+cloud:
+  - item: AWS
+  - item: Azure
+  - item: Terraform
+  - item: Cloudquery

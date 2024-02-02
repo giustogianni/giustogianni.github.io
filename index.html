@@ -1,72 +1,17 @@
-<!DOCTYPE HTML>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Gianni GIUSTO</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="landing">
+---
+layout: default
+---
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<h1>Gianni GIUSTO - MSc student at <a href="https://www.epfl.ch/en/">EPFL</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="timeline.html">Timeline</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="formation.html">Formation</a></li>
-						<li><a href="aboutme.html">About me</a></li>
-					</ul>
-				</nav>
-			</header>
-
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
-		<!-- Banner -->
-			<section id="banner">
-				<h2>Welcome.</h2>
-				<p>
-					<br /> <br /> I am currently a Master student in <b>Data Science</b> and <br /> <b>Life Sciences Engineering</b> at <strong><a href="https://www.epfl.ch/en/">EPFL</a></strong>, originating from Italy and <br /> living between Neuchâtel and Lausanne.
-					<br /> <br /> I am particularly interested in <b>data analysis</b>, <br /> <b>machine learning</b> and their applications.
-					<br /> <br />
-				</p>
-
-				<!--
-				<ul class="actions">
-					<li><a href="#" class="button special big">Get Started</a></li>
-				</ul>
-				-->
-			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="https://github.com/giustogianni" class="icon fa-github"></a></li>
-						<li><a href="https://www.linkedin.com/in/gianni-giusto-49b7b81a5/" class="icon fa-linkedin"></a></li>
-						<li><a href="https://twitter.com/gianni_giusto" class="icon fa-twitter"></a></li>
-						<li><a href="mailto:gianni.giusto@epfl.ch" class="icon fa-terminal"></a></li>
-					</ul>
-					<ul class="copyright">
-						<!-- <li>&copy; Untitled</li> -->
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<!-- <li>Images: <a href="http://unsplash.com">Unsplash</a></li> -->
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+<div id="site">
+  {% include switch.html %}
+  {% include intro.html %}
+  {% include background.html %}
+  {% include skills.html %}
+  {% include experience.html %}
+  <!-- {% include featured-projects.html %} -->
+  {% include other-projects.html %}
+  {% include education.html %}
+  {% include courses.html %}
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>
