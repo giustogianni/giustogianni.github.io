@@ -4,21 +4,20 @@ languages:
   - item: Bash
   - item: C++
 
-pipeline:
-  - item: Apache NiFi
-  - item: GitLab pipelines
-  - item: AWS Glue & Athena
-  - item: Azure Synapse
+data engineering:
+  - item: SQL Server
+  - item: Elasticsearch
+  - item: Apache Spark
+  - item: Databricks
 
-tools:
+devops & security:
   - item: Git
   - item: Docker
-  - item: SQL Server & PostgreSQL
-  - item: Postman
-  - item: Elasticsearch & Kibana
+  - item: CI/CD
+  - item: Prometheus
 
 cloud:
   - item: AWS
   - item: Azure
+  - item: CloudQuery
   - item: Terraform
-  - item: Cloudquery
