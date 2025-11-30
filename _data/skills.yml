@@ -4,13 +4,13 @@ languages:
   - item: Bash
   - item: C++
 
-data engineering:
+dataeng:
   - item: SQL Server
   - item: Elasticsearch
   - item: Apache Spark
   - item: Databricks
 
-devops & security:
+devops:
   - item: Git
   - item: Docker
   - item: CI/CD
