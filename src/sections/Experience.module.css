@@ -1,0 +1,87 @@
+.entry {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-areas:
+    "time   header"
+    "time   tasks";
+  column-gap: var(--space-6);
+  row-gap: var(--space-2);
+  padding: var(--space-3);
+  margin: calc(-1 * var(--space-3));
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s ease;
+}
+
+.entry:hover {
+  background: var(--color-accent-subtle);
+  text-decoration: none;
+}
+
+.time   { grid-area: time; padding-top: 2px; }
+.header { grid-area: header; display: flex; flex-direction: column; gap: var(--space-2); }
+.tasks  { grid-area: tasks; }
+
+/* Arrow next to position title — hidden at rest, revealed on block hover */
+.positionRow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.entryArrow {
+  display: inline-flex;
+  color: var(--color-accent);
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.entry:hover .entryArrow {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
+/* Resume link — offset to align with the content column */
+.resumeWrapper {
+  padding-left: calc(160px + var(--space-6));
+  margin-top: var(--space-8);
+}
+
+.resumeLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.resumeLink:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.resumeArrow {
+  display: inline-flex;
+  transition: transform 0.2s ease;
+}
+
+.resumeLink:hover .resumeArrow {
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 600px) {
+  .entry {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .resumeWrapper {
+    padding-left: 0;
+  }
+}

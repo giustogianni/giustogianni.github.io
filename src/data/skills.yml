@@ -1,0 +1,23 @@
+languages:
+  - item: Python
+  - item: SQL
+  - item: Bash
+  - item: C++
+
+data engineering:
+  - item: dbt
+  - item: Snowflake
+  - item: Dagster
+  - item: SQL Server
+
+cloud:
+  - item: AWS
+  - item: Azure
+  - item: Terraform
+  - item: CloudQuery
+
+devops:
+  - item: Docker
+  - item: CI/CD
+  - item: Git
+  - item: Prometheus

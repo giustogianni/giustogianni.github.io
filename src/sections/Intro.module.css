@@ -1,0 +1,11 @@
+/* Mobile-only overrides — desktop styles are set via inline styles and must not change */
+
+@media (max-width: 768px) {
+  .container {
+    /* Remove the desktop alignment padding — .left panel in App.module.css
+       already provides var(--space-24) top padding on mobile */
+    padding-top: 0;
+  }
+
+  /* clamp() handled at component level — no mobile override needed */
+}

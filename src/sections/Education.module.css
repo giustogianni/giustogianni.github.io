@@ -1,0 +1,25 @@
+.entry {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  column-gap: var(--space-6);
+  padding: var(--space-3);
+  margin: calc(-1 * var(--space-3));
+  border-radius: 6px;
+  cursor: default;
+  transition: background 0.2s ease;
+}
+
+.entry:hover {
+  background: var(--color-accent-subtle);
+}
+
+.time   { padding-top: 2px; }
+.header { display: flex; flex-direction: column; gap: var(--space-2); }
+
+@media (max-width: 600px) {
+  .entry {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+}

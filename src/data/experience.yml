@@ -1,0 +1,87 @@
+- position: Data & AI Engineer
+  company: Volleyball World
+  url: https://en.volleyballworld.com/
+  time: Feb 2026 - Present
+  description: >
+    Engineered and optimised scalable ELT pipelines and data models on an enterprise
+    platform, centralising data across a global sports ecosystem — spanning digital
+    products, TV viewerships, media valuation, and live attendance. Delivered
+    reliable, well-documented datasets enabling marketing, product, finance, and
+    commercial teams, while upholding platform governance, data quality, and
+    security standards.
+  technologies: [Snowflake, dbt, Dagster, AWS, Terraform]
+
+- position: Data Engineer
+  company: Kudelski Group
+  url: https://www.nagra.com/
+  time: Jan 2023 - Jan 2025
+  description: >
+    As part of Global IT department, designed and maintained pipelines
+    spanning IT asset inventory, security operations, identity management, and
+    network infrastructure — enabling vulnerability detection, cloud governance,
+    and operational business intelligence while contributing to generative 
+    AI exploration for emerging business applications.
+  technologies: [AWS, Python, Apache NiFi, SQL Server, Elasticsearch]
+
+- position: Data Engineer
+  company: Johnson & Johnson
+  url: https://www.jnj.com/
+  time: Sep 2021 - Dec 2022
+  description: >
+    Designed and maintained scalable data pipelines to ingest and structure
+    high-volume sales data, powering forecasting models across Sales, COGS,
+    and OPEX. Partnered with data scientists to architect models aligned with
+    business requirements. Delivered decision-ready data to stakeholders across
+    finance and supply chain.
+  technologies: [Azure, Databricks, Python]
+
+- position: Machine Learning Research Intern
+  company: Logitech
+  url: https://www.logitech.com/
+  time: Feb 2021 - Aug 2021
+  description: >
+    Developed a machine learning framework for sensitive health data classification
+    in collaboration with a university hospital. Complemented this with reporting 
+    on peripheral device energy consumption, contributing to sustainability monitoring.
+  technologies: [Python, PyTorch, AWS]
+
+- position: Machine Learning Research Intern
+  company: Watch Manufacturer
+  url: ""
+  time: Sep 2020 - Jan 2021
+  description: >
+    Contributed to a ML project for surface defect detection on
+    watch components. Defined the data collection methodology and labelling
+    strategy, coordinating sample acquisition across production and quality teams.
+    Designed and optimised neural network models for defect classification and
+    spatial localisation, applying transfer learning and augmentation to maximise
+    performance on limited industrial data.
+  technologies: [Python, PyTorch]
+
+- position: Consultant
+  company: Toronto University Health Network
+  url: https://www.uhn.ca/
+  time: Jul 2019 - Aug 2019
+  description: >
+    Provided customer support and facilitated knowledge transfer following the successful
+    completion of an early-stage research project. This transitional role ensured the
+    continuity and adoption of prior work.
+  technologies: []
+
+- position: Teaching Assistant
+  company: EPFL
+  url: https://www.epfl.ch/
+  time: Sep 2018 - Jan 2019
+  description: >
+    Supported students in a cross-disciplinary course bridging mathematics, programming
+    and biology.
+  technologies: [Matlab]
+
+- position: Junior R&D Engineer
+  company: RegenHU
+  url: https://www.regenhu.com/
+  time: Jul 2018 - Sep 2018
+  description: >
+    Contributed to an early-stage research project exploring biomaterial-based solutions
+    for optic nerve regeneration.
+  technologies: []
